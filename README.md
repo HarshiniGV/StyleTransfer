@@ -4,15 +4,13 @@ Neural Style Transfer (TensorFlow) — README
 This project applies Neural Style Transfer using TensorFlow + VGG19.
 It blends the content of one image with the style of another by optimizing a generated image using style/content feature losses.
 
-Usage
-
+###Usage
 Put your images in the project:
-
 content_path = '/content/image1.jpg'
 style_path = '/content/image2.jpg'
 
 
-Run the script.
+###Run the script.
 It:
 
 Loads images
@@ -25,7 +23,7 @@ Optimizes the image for 25 epochs × 150 steps
 
 Displays the final stylized output
 
-Main Components
+###Main Components
 
 load_img() – loads & resizes image
 
@@ -37,7 +35,7 @@ train_step() – performs Adam optimization
 
 Final image is clipped to valid pixel range
 
-Results
+###Results
 
 The generated output preserves:
 
