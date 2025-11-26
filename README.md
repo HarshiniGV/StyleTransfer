@@ -49,10 +49,18 @@ Style weight ↑ → more painterly effect
 
 Content weight ↑ → more original structure retaine
 
-### Examples
+### Example 1
 
 **Content**
 ![Content](input/input1.png)
 
 **Output**
 ![Output](output/output1.png)
+
+### Example 2
+
+**Content**
+![Content](input/input2.png)
+
+**Output**
+![Output](output/output2.png)
