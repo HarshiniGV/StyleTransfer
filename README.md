@@ -23,7 +23,7 @@ Optimizes the image for 25 epochs × 150 steps
 
 Displays the final stylized output
 
-###Main Components
+### Main Components
 
 load_img() – loads & resizes image
 
@@ -48,3 +48,11 @@ Higher epochs = smoother + more detailed style
 Style weight ↑ → more painterly effect
 
 Content weight ↑ → more original structure retaine
+
+### Examples
+
+**Content**
+![Content](input/input1.png)
+
+**Output**
+![Output](output/output1.png)
